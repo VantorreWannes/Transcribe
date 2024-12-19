@@ -1,0 +1,15 @@
+[project]
+name = "transcribe"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "openai>=0.28.1",
+    "setuptools-rust>=1.10.2",
+    "spleeter>=2.4.0",
+    "subsai",
+]
+
+[tool.uv.sources]
+subsai = { git = "https://github.com/abdeladim-s/subsai" }
