@@ -1,2 +1,4 @@
-bin/*
+input/*
+output/*
+cache/*
 pretrained_models
